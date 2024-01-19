@@ -1,0 +1,297 @@
+/* polices */
+.montserrat-title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style: normal;
+}
+
+.open-sans-text {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+/*fonts*/
+.bold{
+    font-weight: bold;
+}
+
+/* couleurs */
+.blanc {
+    color: #ffffff;
+}
+.orange{
+    color: #fab637;
+}
+.rouge{
+    color: #ff4848;
+}
+.marron{
+    color: #cc6119;
+}
+.gris{
+    color: #eceff3;
+}
+.gris-fonce{
+    color: gray;
+}
+.noir{
+    color: #232628;
+}
+.bleu{
+    color: #6c98e1;
+}
+/*background color*/
+.bg-blanc {
+    background-color: #ffffff;
+}
+.bg-orange{
+    background-color: #fab637;
+}
+.bg-rouge{
+    background-color: #ff4848;
+}
+.bg-marron{
+    background-color: #cc6119;
+}
+.bg-gris{
+    background-color: #eceff3;
+}
+.bg-gris-fonce{
+    background-color: gray;
+}
+.bg-noir-clair{
+    background-color: #404040;
+}
+.bg-noir{
+    background-color: #232628;
+}
+.bg-bleu{
+    background-color: #6c98e1;
+}
+/*sizes*/
+.size-small {
+	font-size: 0.75rem;
+}
+.size-medium {
+	font-size: 1.25rem;
+}
+.size-large {
+	font-size: 2rem;
+}
+.size-extra-large {
+	font-size: 2.5rem;
+}
+.img-small{
+    width: 25px;
+    height: fit-content;
+}
+.img-medium{
+    width: 50px;
+    height: fit-content;
+}
+.img-large{
+    width: 80vw;
+    height: fit-content;
+}
+.img-xlarge{
+    width: 100%;
+    height: fit-content;
+}
+/*elements flex*/
+.flex{
+    display: flex;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.flex-direction-col{
+    display: flex;
+    flex-direction: column;
+}
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-center-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.align-center{
+    align-items: center;
+}
+/*margins et paddings*/
+.mg-30{
+    margin: 30px 30px 0;
+}
+.mg-15{
+    margin: 0 15px;
+}
+.pb-30{
+    margin-bottom: 30px;
+}
+.p-50{
+    padding: 50px;
+}
+.p-30{
+    padding: 30px 0;
+}
+.p-15{
+    padding: 0 15px;
+}
+.p-20{
+    padding: 20px 0;
+}
+.p-05{
+    padding: 5px;
+}
+/* page accueil */
+/*header*/
+.headbar-1{
+    height: 100px;
+}
+.headbar-1 a{
+    text-decoration: none;
+}
+.headbar-1 p{
+    margin: 0;
+}
+.container-headbar-1{
+    padding: 25px;
+}
+.menu{
+    display: none;
+}
+.navbar{
+    height: 50px;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 15px 30px;
+}
+.navbar a:hover{
+    background-color: #cc6119; 
+    color: #ffffff;
+}
+/* corps page */
+.img-accueil{
+   background-image: url(images/vehicule1.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 800px;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+.milieu-page{
+    background-image: url(images/vehicule4.jpg);
+    background-size: cover;
+	background-position: center; 
+}
+.opacity{
+    opacity: 0.9;
+}
+.gap{
+    gap: 30px;
+}
+.w-80{
+    width: 80%;
+}
+.titre-mp{
+    padding: 30px;
+}
+.prix{
+    font-size: 0.75em;
+    text-decoration: line-through;
+}
+.fin-page{
+    background-image: url(images/vehicule3.jpg);
+    background-size: cover;
+	background-position: start; 
+}
+@media (min-width: 1200px){
+    .menu-burger{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .headbar-1{
+        height: 150px;
+    }
+    .img-large{
+        width: 25vw;
+    }
+    .section1-accueil{
+        flex-direction: row;
+        width: 80vw;
+        padding-left: 5em;
+    }
+    .section2-accueil{
+        flex-direction: row-reverse;
+        width: 80vw;
+        padding-left: 5em;
+    }
+    .p-30{
+        padding:30px
+    }
+    .haut-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .milieu-page{
+        flex-direction: row;
+        height: 400px;
+        align-items: center;
+    }
+    .div-milieu-page{
+        width: 30em;
+        height: 10em;
+      
+    }
+    .bloc{
+        width: 30vw;
+    }
+    .bloc-mp{
+        display: flex;
+        flex-direction: row;
+    }
+    .titre-mp{
+        display: flex;
+        justify-content: center;
+    }
+    .bouton{
+           width: 15vw;
+    }
+    .div-fp{
+        width: 25%;
+        justify-content: flex-start;
+        margin: 30px 0 30px 100px;
+    }
+    .container-footer{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .bloc1-footer{
+        width: 20vw;
+    }
+}
